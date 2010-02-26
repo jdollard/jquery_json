@@ -26,9 +26,6 @@
      **/
     $.toJSON = function(o)
     {
-        if (typeof(JSON) == 'object' && JSON.stringify)
-            return JSON.stringify(o);
-        
         var type = typeof(o);
     
         if (o === null)
@@ -45,9 +42,6 @@
     
         if (type == 'object')
         {
-            if (typeof o.toJSON == "function") 
-                return $.toJSON( o.toJSON() );
-            
             if (o.constructor === Date)
             {
                 var month = o.getUTCMonth() + 1;

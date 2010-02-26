@@ -1,0 +1,4 @@
+This is a modified version of jquery's json plugin.  I had to modify it because I was using
+the plugin tries to call 'toJSON' on objects that you try to jsonify; the website
+I'm using the plugin on defines this method in a broken way.
+
