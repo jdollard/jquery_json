@@ -1,3 +1,7 @@
+/*  This is a modified version of the plugin that lives at
+      http://github.com/jdollard/jquery_json
+*/
+
 /*
  * jQuery JSON Plugin
  * version: 2.1 (2009-08-14)
